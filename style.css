@@ -1,0 +1,93 @@
+/* ul{
+    list-style-type: none;
+    position: relative;
+    left:1350px;
+    bottom:120px;
+}
+ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    float:right;
+} */
+/* ul li ul.dropdown{
+    position: absolute;
+    z-index: 999;
+    display:none;
+}
+ul li a img:hover{
+    color:aliceblue;
+} */
+.D4:hover {
+    transform: scaleY(1.4);
+    border-bottom: 10px solid #3d799f;
+    border-top: 10px solid #3d799f;
+    padding: 60px 20px 60px 20px;
+    background-color: #3399cc !important;
+}
+.D5:hover{
+    transform:scaleY(1.4);
+    background-color: #3399cc !important;
+    border-bottom: 10px solid #3d799f;
+    border-top: 10px solid #3d799f;
+    padding: 60px 20px 60px 20px;
+}
+.D6:hover{
+    transform:scaleY(1.4);
+    background-color: #3399cc !important;
+    border-bottom: 10px solid #3d799f;
+    border-top: 10px solid #3d799f;
+    padding: 60px 20px 60px 20px;
+}
+.D7:hover{
+    transform:scaleY(1.4);
+    background-color: #3399cc !important;
+    border-bottom: 10px solid #3d799f;
+    border-top: 10px solid #3d799f;
+    padding: 60px 20px 60px 20px;
+}
+.D4:hover p{
+    color: white;
+}
+.D5:hover p{
+    color: white;
+}
+.D6:hover p{
+    color: white;
+}
+.D7:hover p{
+    color: white;
+}
+#email{
+    text-decoration: none;
+    background-color: aqua;
+}
+
+/* <section class="D1">
+            <div class="D2">
+                <h2 style="font-size: 50px;"><i class="fa fa-mobile-phone"></i>APP</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href=""><img  src="./plus.png" height="40px" width="40px"></a>
+                        <ul class="dropdown"></ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Download</a></li>
+                        <li><a href="">Fan Page</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Elements</a></li></ul>
+                    </li>
+                </ul>
+            </nav>
+            <p id="p1">Your App Name</p>
+            <div class="D3">
+                <p>This is an app landing page from <mark>templatemo</mark>. Credits go to<br><br><mark>Bootstrap</mark>, <mark>stocksnap.io</mark> for images, <mark>subtlepatterns.com</mark> for<br><br> background patterns.</p>
+            </div>
+            <div>
+                <a href=""><i class="fa fa-align-justify"></i>Features</a>
+                <a href=""><i class="fa fa-download"></i>Download</a>
+            </div>
+        </section> */
+
