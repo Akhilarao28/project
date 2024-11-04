@@ -1,0 +1,388 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            body,
+            html {
+                margin: 0%;
+                padding: 0%;
+            }
+
+            .D1 {
+                background-image: url("./jumbo_background.jpg");
+                height: 100vh;
+                width: 100%;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .D2 {
+                display: flex;
+                justify-content: center;
+                color: white;
+                position: relative;
+                top: 125px;
+            }
+
+            #p1 {
+                color: white;
+                font-size: 36px;
+                font-weight: lighter;
+                font-family: 'Fira Sans', sans-serif;
+                position: relative;
+                top: 70px;
+                display: flex;
+                justify-content: center;
+            }
+
+            .D3 {
+                font-size: 20px;
+                font-family: 'Fira Sans', sans-serif;
+                font-weight: lighter;
+                color: white;
+                display: flex;
+                text-align: center;
+                position: relative;
+                top: 55px;
+                left: 510px;
+                margin: 50px 0 50px 0;
+            }
+
+            .D3 mark {
+                background-color: rgba(255, 255, 255, .6);
+                padding: 5px;
+            }
+
+            div a {
+                font-size: 18px;
+                font-family: 'Fira Sans', sans-serif;
+                font-weight: lighter;
+                text-decoration: none;
+                position: relative;
+                left: 500px;
+                top: 60px;
+                color: black;
+                margin: 15px;
+                background: white;
+                padding: 20px 70px 20px 70px;
+            }
+
+            .container {
+                background-image: url("./pattern_bg.png");
+                height: 750px;
+                width: 100%;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            #p2 {
+                font-size: 50px;
+                text-align: center;
+                color: #fff;
+                padding: 80px;
+                font-family: 'Fira Sans', sans-serif;
+                font-weight: lighter;
+
+            }
+
+            div span {
+                position: relative;
+                top: -15px;
+            }
+
+            .left {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 20px;
+                align-items: center;
+                line-height: 32px;
+                font-size: 18px;
+                margin-left: 35px;
+                margin-right: 35px;
+                text-align: center;
+                background-color: #cecece;
+                border: 15px solid #cecece;
+                font-family: 'Fira Sans';
+                /* border-bottom: 10px solid #cecece;
+            border-top: 10px solid #cecece; */
+            }
+
+            .card {
+                background-image: url("./download_background.jpg");
+                height: 100vh;
+                width: 100%;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            #p3 {
+                font-size: 50px;
+                text-align: center;
+                color: #fff;
+                padding: 80px;
+                font-family: 'Fira Sans', sans-serif;
+                font-weight: lighter;
+            }
+
+            #p4 {
+                color: white;
+                text-align: center;
+                font-size: 18px;
+                font-family: 'Fira Sans', sans-serif;
+                font-weight: lighter;
+                position: relative;
+                top: -50px;
+            }
+
+            .D8 {
+                color: white;
+                text-align: center;
+                font-size: 70px;
+            }
+
+            .drop {
+                background-image: url("./pattern_bg.png");
+                height: 800px;
+                width: 100%;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .D9 {
+                text-align: center;
+                font-size: 20px;
+                color: #fff;
+                position: relative;
+                top: 60px;
+            }
+
+            #p5 {
+                position: relative;
+                top: 130px;
+                left: 600px;
+            }
+
+            #p6 {
+                color: white;
+                text-align: center;
+                font-size: 50px;
+                padding: 65px;
+                font-family: 'Fira Sans', sans-serif;
+                font-weight: lighter;
+            }
+
+            .D10 {
+                color: #fff;
+                text-align: center;
+                font-size: 18px;
+                font-family: 'Fira Sans', sans-serif;
+                margin: 0px 0px 10px;
+            }
+
+            .D11 {
+                width: 600px;
+                position: relative;
+                border-collapse: separate;
+                border-bottom: 3px solid #fff;
+                border-right: 0;
+                vertical-align: top;
+                border-radius: 0;
+                color: white;
+                padding: 6px 12px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1;
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+                position: relative;
+                left: 450px;
+            }
+
+            .D12 {
+                width: 600px;
+                position: relative;
+                border-collapse: separate;
+                border-bottom: 3px solid #fff;
+                border-right: 0;
+                vertical-align: top;
+                border-radius: 0;
+                color: white;
+                padding: 6px 12px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1;
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+                position: relative;
+                left: 450px;
+            }
+
+            .D13 {
+                width: 600px;
+                position: relative;
+                border-collapse: separate;
+                border-bottom: 3px solid #fff;
+                border-right: 0;
+                vertical-align: top;
+                border-radius: 0;
+                color: white;
+                padding: 6px 12px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1;
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+                position: relative;
+                left: 450px;
+            }
+
+            div button {
+                background-color: #275267;
+                ;
+                padding: 12px;
+                margin: 12px;
+                color: white;
+                width: 230px;
+                position: relative;
+                left: 850px;
+            }
+
+            .D14 {
+                display: flex;
+                gap: 15px;
+                position: relative;
+                top: 40px;
+                font-size: 60px;
+                left: 550px;
+                margin: 4px 10px 15px 10px;
+                border-radius: 50px;
+                padding-top: 15px;
+                transition: .5s;
+                height: 70px;
+                /* color: #fff; */
+                width: 50px;
+            }
+
+            .fa-square-facebook {
+                color: #3e68e7;
+            }
+
+            .fa-square-twitter {
+                color: #28a9e0;
+            }
+
+            .fa-square-youtube {
+                color: #f86d70;
+            }
+
+            .fa-square-instagram {
+                color: #cab9a9;
+            }
+
+            footer {
+                margin: 30px auto 30px auto;
+                text-align: center;
+                line-height: 32px;
+                color: #666;
+                font-size: 20px;
+                background-color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="D1">
+            <div class="D2">
+                <h2 style="font-size: 50px;"><i class="fa-sharp-duotone fa-solid fa-mobile-screen-button"></i>APP</h2>
+            </div>
+            <p id="p1">Your App Name</p>
+            <div class="D3">
+                <p>This is an app landing page from <mark>templatemo</mark>. Credits go
+                    to<br><br><mark>Bootstrap</mark>,
+                    <mark>stocksnap.io</mark>for images,
+                    <mark>subtlepatterns.com</mark>for<br><br>background patterns.
+                </p>
+            </div>
+            <div><a href=""><i class="fa fa-align-justify"></i>Features</a><a href=""><i
+                        class="fa fa-download"></i>Download</a></div>
+        </section>
+        <section class="container">
+            <div id="p2"><span>...</span>Features<span>...</span></div>
+            <div class="left">
+                <div class="D4" style="background-color: #fff; padding:60px;"><i class="fa fa-music"
+                        style="font-size: 40px;"></i>
+                    <p style="opacity: 0.7;">Loreum ipsum dolor sit amet,
+                        <br>consectetur adipiscing elit,
+                        sed<br>do eiusmod tempor incididunt<br>ut labore et dolore magna<br>aliqua.Ut enim ad.
+                    </p>
+                </div>
+                <div class="D5" style="background-color: #fff; padding:59px;"><i class="fa fa-pagelines"
+                        style="font-size: 40px;"></i>
+                    <p style="opacity: 0.7;">Quis nostrud exercitation<br>ullamco laboris nisi ut aliquip.<br>Duis aute
+                        irure dolor in<br>reprehenderit in voluptate<br>velit esse.</p>
+                </div>
+                <div class="D6" style="background-color: #fff; padding: 60px;"><i class="fa fa-ship"
+                        style="font-size: 40px;"></i>
+                    <p style="opacity: 0.7;">Cillum dolore eu fugiat nulla<br>pariatur.Excepteur sint<br>occaecat
+                        cupidat non<br>proident,
+                        sunt in culpa qui<br>officia deserunt.</p>
+                </div>
+                <div class="D7" style="background-color: #fff; padding: 60px;"><i class="fa fa-trophy"
+                        style="font-size: 40px;"></i>
+                    <p style="opacity: 0.7;">Loreum ipsum dolor sit amet,
+                        <br>consectetur adipiscing elit,
+                        sed<br>do eiusmod tempor incididunt<br>ut labore et dolore magna<br>aliqua.Ut enim ad.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="card">
+            <div id="p3"><span>...</span>Download<span>...</span></div>
+            <p id="p4" style="margin: 0 0 10px;">Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit,
+                sed do<br><br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut<br><br>enim ad minim
+                veniam,
+                quis nostrud exercitation.</p>
+            <div class="D8">15,
+                050,
+                500</div>
+            <div class="D9">Over 15 millions user on Google play store</div><img src="./download_btn.png" id="p5">
+        </section>
+        <section class="drop">
+            <div id="p6"><span>...</span>Contact<span>...</span></div>
+            <p class="D10"><i class="fa fa-map-marker" style="color: #fff;"></i>1234 Lincoln Way,
+                San Francisco,
+                California<br><br><i class="fa fa-envelope"></i>Email: info@company.com<br><br> <i
+                    class="fa fa-phone"></i>Phone: 010-020-0340</p><br>
+            <form>
+                <div class="D11"><i class="fa fa-user"></i><input type="text" name="name" id="name" placeholder="Name"
+                        class="form"></div><br><br>
+                <div class="D12"><i class="fa fa-at"></i><input type="Email" name="mail" id="mail" placeholder="Email">
+                </div><br><br>
+                <div class="D13"><i class="fa fa-envelope"></i><input type="text" name="message" id="message"
+                        placeholder="Message"></div><br><br>
+                <div><button style="font-size: 15px;">Send</button></div>
+            </form>
+            <div class="D14"><i class="fa-brands fa-square-facebook"></i>&nbsp;
+                <i class="fa-brands fa-square-twitter"></i>&nbsp;
+                <i class="fa-brands fa-square-youtube"></i>&nbsp;
+                <i class="fa-brands fa-square-instagram"></i>
+            </div>
+        </section>
+        <footer>Copyright © 2084 Company Name</footer>
+    </body>
+
+    </html>

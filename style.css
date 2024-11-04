@@ -1,0 +1,52 @@
+.D4:hover {
+    transform: scaleY(1.4);
+    border-bottom: 10px solid #3d799f;
+    border-top: 10px solid #3d799f;
+    padding: 60px 20px 60px 20px;
+    background-color: #3399cc !important;
+}
+
+.D5:hover {
+    transform: scaleY(1.4);
+    background-color: #3399cc !important;
+    border-bottom: 10px solid #3d799f;
+    border-top: 10px solid #3d799f;
+    padding: 60px 20px 60px 20px;
+}
+
+.D6:hover {
+    transform: scaleY(1.4);
+    background-color: #3399cc !important;
+    border-bottom: 10px solid #3d799f;
+    border-top: 10px solid #3d799f;
+    padding: 60px 20px 60px 20px;
+}
+
+.D7:hover {
+    transform: scaleY(1.4);
+    background-color: #3399cc !important;
+    border-bottom: 10px solid #3d799f;
+    border-top: 10px solid #3d799f;
+    padding: 60px 20px 60px 20px;
+}
+
+.D4:hover p {
+    color: white;
+}
+
+.D5:hover p {
+    color: white;
+}
+
+.D6:hover p {
+    color: white;
+}
+
+.D7:hover p {
+    color: white;
+}
+
+#email {
+    text-decoration: none;
+    background-color: aqua;
+}
